@@ -1,6 +1,7 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
+import sunpy_sphinx_theme
 
 project = 'Lumache'
 copyright = '2021, Graziella'
@@ -29,7 +30,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sunpy'
+html_theme = "sunpy"
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
